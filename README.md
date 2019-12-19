@@ -1,15 +1,25 @@
 # 目录结构
-~/game/server/
+
 ├── xxxxxxxxxxxxxxx.key     域名 ssl 证书，在腾讯云控制台下载
+
 ├── xxxxxxxxxxxxxxx.crt     域名 私钥 文件，在腾讯云控制台下载
+
 ├── package.json
+
 ├── ecosystem.config.js     pm2 配置文件
+
 ├── db.js                   数据库
+
 ├── config.js               配置文件
+
 ├── index.js                入口文件
+
 ├── TicTacToe.js            井字大作战游戏逻辑
+
 ├── players.js              玩家相关逻辑
+
 └── weapi.js                微信后台接口相关逻辑
+
 
 
 复制 nginx 目录下后缀为 key 和 crt 的两个文件进行替换。
